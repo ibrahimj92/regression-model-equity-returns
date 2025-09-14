@@ -1,18 +1,18 @@
-# regression-model-equity-returns
-Python regression model analysing equity index returns with Pandas and NumPy; includes data cleaning, OLS estimation, and scenario testing.
+# portfolio-tracker
+Python tool to monitor and analyse multi-asset investment portfolios.
 
-This project applies Python to analyse equity index returns using Pandas and NumPy.  
+This project applies Python to calculate performance, risk, and allocation of user-defined portfolios.
 
-It includes:  
-- Cleaning and preparing raw return series  
-- Running OLS regression for factor modelling  
-- Conducting scenario testing and sensitivity analysis  
-- Visualising regression outputs for clear insights  
+It includes:
+- Uploading transactions/holdings via CSV
+- Tracking portfolio value and asset weights
+- Calculating daily returns, volatility, and Sharpe ratio
+- Generating allocation charts and performance reports
 
 ---
 
-Tech Stack
-- Python (Pandas, NumPy, Matplotlib, Statsmodels)  
+### Tech Stack
+- Python (Pandas, NumPy, Plotly, Matplotlib)
 
-Example Output
-Regression model demonstrates explanatory power of market factors on equity returns, with stress-tests under different scenarios.
+### Example Output
+Pie charts of allocations, performance plots, and return/volatility statistics.
